@@ -193,3 +193,8 @@ function save_custom_meta_box($post_id)
 	}
 }
 add_action('save_post', 'save_custom_meta_box');
+
+
+add_action( 'template_redirect', function() {
+	is_user_logged_in() || auth_redirect();
+});
