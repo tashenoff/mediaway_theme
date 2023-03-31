@@ -107,7 +107,7 @@
             <div class="bg-white p-5 service-group__item">
                 <div class="service-group__item-body">
 
-                    <div class="bg-primary w-[50px] h-[50px] block">11</div>
+                  
 
                     <h3 class="service-group__item-title">Разработка</h3>
                     <p class="service-group__item-text">

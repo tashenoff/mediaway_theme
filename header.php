@@ -28,7 +28,7 @@
 
 </head>
 
-<body class="bg-gray-200 dark:bg-slate-900 dark:text-slate-400">
+<body class="bg-gray-200 dark:bg-slate-900 dark:text-slate-400 ">
 
 	<?php do_action('tailpress_site_before'); ?>
 
@@ -36,7 +36,7 @@
 
 		<?php do_action('tailpress_header'); ?>
 
-		<header id="#header" class="dark:bg-slate-900 dark:text-slate-400 w-full header z-60 transition-all duration-1000 ease-in-out">
+		<header id="#header" class="dark:bg-slate-900 dark:text-slate-400 w-full header z-60 transition-all duration-1000 ease-in-out <? if ( current_user_can( 'administrator' ) ) { echo 'mt-[28px]';} else { echo 'mt-[0px]';}?>">
 
 
 			<div
@@ -119,10 +119,8 @@
 			</div>
 		</header>
 
-		<div id="content" class="site-content mt-[88px]">
+		<div id="content" class="site-content <? if ( current_user_can( 'administrator' ) ) { echo 'mt-[28px]';} else { echo 'mt-[88px]';}?>">
 
-
-
-			<main>
+				<main>
 
 				<?php do_action('tailpress_content_start'); ?>

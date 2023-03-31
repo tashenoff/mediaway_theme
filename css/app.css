@@ -1032,6 +1032,22 @@ input[type="range"]::-ms-fill-lower {
   margin-bottom: 1rem;
 }
 
+.mt-\[32px\] {
+  margin-top: 32px;
+}
+
+.mt-\[28px\] {
+  margin-top: 28px;
+}
+
+.mt-\[98px\] {
+  margin-top: 98px;
+}
+
+.mt-\[0px\] {
+  margin-top: 0px;
+}
+
 .block {
   display: block;
 }
