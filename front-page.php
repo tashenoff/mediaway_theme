@@ -300,7 +300,7 @@
 
 
 
-                <div class=" w-full items-center justify-start rounded-sm relative bg-light text-white">
+                <div class=" w-full items-center justify-start rounded-sm relative bg-secondary text-white">
 
 
                     <div class="p-10">
@@ -328,7 +328,7 @@
 
 
 
-                <div class=" w-full items-center justify-start rounded-sm relative bg-light text-white">
+                <div class=" w-full items-center justify-start rounded-sm relative bg-secondary text-white">
 
 
                     <div class="p-10 relative z-50">
