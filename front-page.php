@@ -104,12 +104,12 @@
         <div class="grid grid-cols-3 gap-4">
 
 
-            <div class="bg-white p-5 service-group__item">
+            <a href="https://mediaway.kz/category/development/" class="bg-white p-5 service-group__item">
                 <div class="service-group__item-body">
 
                   
 
-                    <h3 class="service-group__item-title">Разработка</h3>
+                    <h3 class="service-group__item-title">Разработка сайтов</h3>
                     <p class="service-group__item-text">
                         Простой сайт с кратким рассказом о конкретном продукте или услуге компании.
 
@@ -117,7 +117,7 @@
                     <button class="service-group__item-button">Подробнее</button>
                 </div>
 
-            </div>
+</a>
 
 
 
