@@ -198,3 +198,14 @@ add_action('save_post', 'save_custom_meta_box');
 add_action( 'template_redirect', function() {
 	is_user_logged_in() || auth_redirect();
 });
+
+
+add_action( 'login_head', 'true_change_login_logo' );
+ 
+function true_change_login_logo() {
+	echo '<style>
+	#login h1 a{
+		background-image : url(' . get_stylesheet_directory_uri() . '/img/llogo.svg);
+	}
+	</style>';
+}
