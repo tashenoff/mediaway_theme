@@ -300,10 +300,10 @@
 
 
 
-                <div class=" w-full items-center justify-start rounded-sm relative bg-secondary text-white">
+                <div class=" w-full items-center justify-start rounded-sm relative bg-secondary feedback text-white">
 
 
-                    <div class="p-10">
+                    <div class="p-10 z-50 relative">
                         <div class="border-b border-white border-opacity-10 py-5">
                             <div class="flex">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -328,7 +328,7 @@
 
 
 
-                <div class=" w-full items-center justify-start rounded-sm relative bg-secondary text-white">
+                <div class=" w-full items-center justify-start rounded-sm feedback relative bg-secondary text-white">
 
 
                     <div class="p-10 relative z-50">
@@ -347,10 +347,10 @@
                         </div>
 
                         <form class="py-5" action="">
-                            <input placeholder="Ваше имя" class="w-full border-none bg-black bg-opacity-10" type="text">
-                            <input placeholder="Номер телефона" class="w-full border-none bg-black bg-opacity-10 mt-5"
+                            <input placeholder="Ваше имя" class="w-full border-none bg-white" type="text">
+                            <input placeholder="Номер телефона" class="w-full border-none bg-white mt-5"
                                 type="text">
-                            <button class="bg-secondary btn relative hover:-translate-y-1 transition-all duration-500 ease-in-out mt-10">Оставить заявку</button>
+                            <button class="bg-white text-secondary btn relative hover:-translate-y-1 transition-all duration-500 ease-in-out mt-10">Оставить заявку</button>
                         </form>
 
 

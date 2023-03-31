@@ -169,8 +169,29 @@ article>*:not(.entry-content),
 
 .feedback{
 
+  background-image: url(../img/bg-mark.png);
+  background-repeat: repeat;
+  background-size: 600px;
+
+
+  &::before{
+    content: "";
+    height: 100%;
+    left: 0;
+    top: 0;
+    @apply bg-secondary;
+    z-index: 40;
+    opacity: .5;
+    position: absolute;
+    width: 100%;
+  }
+
+
   &__right{
     @apply bg-light;
+    background-image: url(../img/bg-mark.png);
+    background-repeat: repeat;
+    background-size: 600px;
     
 
     &::before{
