@@ -6,7 +6,7 @@
 
 
 		<?php
-		if (in_category(6)) {
+		if (in_category(4)) {
 			get_template_part('template-parts/price', 'card');
 		} else {
 			echo 'это другая категория';
