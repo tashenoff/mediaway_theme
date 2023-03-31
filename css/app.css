@@ -944,6 +944,10 @@ input[type="range"]::-ms-fill-lower {
   grid-column: span 3 / span 3;
 }
 
+.col-span-12 {
+  grid-column: span 12 / span 12;
+}
+
 .m-8 {
   margin: 2rem;
 }
